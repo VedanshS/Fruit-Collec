@@ -64,8 +64,8 @@ class Game{
             // the players on the screen
             fill("white");
             textSize(20);
-            text("player1 : "+allplayers.player1.score,50,50)
-            text("player2 : "+allplayers.player2.score,50,100)
+            text("player1 : "+allPlayers.player1.score,50,50)
+            text("player2 : "+allPlayers.player2.score,50,100)
 
 
         }
@@ -110,11 +110,6 @@ class Game{
                 }
             }
         }
-        
-        textSize(25);
-        fill("white");
-        text("Player 1 : "+allplayers.player1.score,50,50)
-        text("Player 2 : "+allplayers.player1.score,50,100)
 
         // Add code for game end condition
         if(player.score>=10){
